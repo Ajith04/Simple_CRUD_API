@@ -1,18 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\DotNetCRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\TEAM F\\Simple_CRUD_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\services\\productservice\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:services\\productservice\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\dto\\requestdto\\product\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:dto\\requestdto\\product\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEAM F\\Simple_CRUD_API\\Migrations\\20250214120309_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250214120309_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\repositories\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:repositories\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\iservices\\iproductservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:iservices\\iproductservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\irepositories\\iproductrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:irepositories\\iproductrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\database\\abcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:database\\abcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\dto\\responsedto\\product\\productresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:dto\\responsedto\\product\\productresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\database\\abcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:database\\abcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\team f\\simple_crud_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB6AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\DTO\\RequestDTO\\Product\\ProductRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\RequestDTO\\Product\\ProductRequestDTO.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\DTO\\RequestDTO\\Product\\ProductRequestDTO.cs",
+              "RelativeToolTip": "DTO\\RequestDTO\\Product\\ProductRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:12:27.534Z",
+              "WhenOpened": "2025-02-14T12:06:48.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ABCDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Database\\ABCDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\ABCDbContext.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Database\\ABCDbContext.cs",
+              "RelativeToolTip": "Database\\ABCDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:10:09.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T08:10:35.979Z",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:00:11.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ABCDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Database\\ABCDbContext.cs",
-              "RelativeDocumentMoniker": "Database\\ABCDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Database\\ABCDbContext.cs",
-              "RelativeToolTip": "Database\\ABCDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Repositories\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Repositories\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:09:59.292Z",
+              "WhenOpened": "2025-02-14T08:58:47.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\IServices\\IProductService\\IProductService.cs",
+              "RelativeDocumentMoniker": "IServices\\IProductService\\IProductService.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\IServices\\IProductService\\IProductService.cs",
+              "RelativeToolTip": "IServices\\IProductService\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:59:04.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Services\\ProductService\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\ProductService.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Services\\ProductService\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService\\ProductService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:59:01.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250214120309_product.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Migrations\\20250214120309_product.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250214120309_product.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Migrations\\20250214120309_product.cs",
+              "RelativeToolTip": "Migrations\\20250214120309_product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:03:09.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\IRepositories\\IProductRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "IRepositories\\IProductRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\IRepositories\\IProductRepository\\IProductRepository.cs",
+              "RelativeToolTip": "IRepositories\\IProductRepository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:58:50.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductResponceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\DTO\\ResponseDTO\\Product\\ProductResponceDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ResponseDTO\\Product\\ProductResponceDTO.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\DTO\\ResponseDTO\\Product\\ProductResponceDTO.cs",
+              "RelativeToolTip": "DTO\\ResponseDTO\\Product\\ProductResponceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:52:30.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:08:16.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T10:19:46.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TEAM F\\Simple_CRUD_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:49:07.082Z",
               "EditorCaption": ""
             }
           ]
