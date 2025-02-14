@@ -1,4 +1,8 @@
 using DotNetCRUD.Database;
+using DotNetCRUD.IRepositories;
+using DotNetCRUD.IServices;
+using DotNetCRUD.Repositories;
+using DotNetCRUD.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +17,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ABCDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("SampleCS")));
+builder.Services.AddScoped<IStudent_Services, Student_Services>();
+builder.Services.AddScoped<IStudent_Repo, StudentRepo>();
 
 var app = builder.Build();
 

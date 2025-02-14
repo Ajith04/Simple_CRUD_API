@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\DotNetCRUD\\DotNetCRUD.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\DotNetCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\DotNetCRUD\\DotNetCRUD.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\DotNetCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNetCRUD\\DotNetCRUD.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\DotNetCRUD.csproj",
         "projectName": "DotNetCRUD",
-        "projectPath": "C:\\Users\\User\\Desktop\\DotNetCRUD\\DotNetCRUD.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\DotNetCRUD.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\DotNetCRUD\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/optimo-v4/OPTIMO/_packaging/OptimoFeed/nuget/v3/index.json": {}
         },
