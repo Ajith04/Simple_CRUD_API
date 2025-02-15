@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DotNetCRUD.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DotNetCRUD.Database
 {
@@ -8,5 +9,7 @@ namespace DotNetCRUD.Database
         {
 
         }
+
+        public DbSet<Order> Orders { get; set; }
     }
 }

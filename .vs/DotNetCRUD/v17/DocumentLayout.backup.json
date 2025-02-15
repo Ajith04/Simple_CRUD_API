@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\DotNetCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\DotNetCRUD\\Migrations\\20250214081419_Ajith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250214081419_Ajith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\irepositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:irepositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|solutionrelative:iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A60F964-C73B-449A-9018-FADEF2D0B470}|DotNetCRUD.csproj|c:\\users\\user\\desktop\\dotnetcrud\\database\\abcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,59 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250214081419_Ajith.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Migrations\\20250214081419_Ajith.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250214081419_Ajith.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Migrations\\20250214081419_Ajith.cs",
-              "RelativeToolTip": "Migrations\\20250214081419_Ajith.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:14:19.648Z",
+              "WhenOpened": "2025-02-14T09:35:27.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB6AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\IServices\\IOrderService.cs",
+              "RelativeDocumentMoniker": "IServices\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\IServices\\IOrderService.cs",
+              "RelativeToolTip": "IServices\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:12:27.534Z",
+              "WhenOpened": "2025-02-14T09:35:07.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T08:10:35.979Z",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:34:50.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\IRepositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "IRepositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\IRepositories\\IOrderRepository.cs",
+              "RelativeToolTip": "IRepositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:34:07.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAC0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:32:38.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ABCDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Database\\ABCDbContext.cs",
               "RelativeDocumentMoniker": "Database\\ABCDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\DotNetCRUD\\Database\\ABCDbContext.cs",
               "RelativeToolTip": "Database\\ABCDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:09:59.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T09:32:08.182Z"
             }
           ]
         }

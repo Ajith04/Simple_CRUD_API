@@ -170,3 +170,4 @@ C:\Users\User\Desktop\DotNetCRUD\obj\Debug\net8.0\refint\DotNetCRUD.dll
 C:\Users\User\Desktop\DotNetCRUD\obj\Debug\net8.0\DotNetCRUD.pdb
 C:\Users\User\Desktop\DotNetCRUD\obj\Debug\net8.0\DotNetCRUD.genruntimeconfig.cache
 C:\Users\User\Desktop\DotNetCRUD\obj\Debug\net8.0\ref\DotNetCRUD.dll
+C:\Users\User\Desktop\DotNetCRUD\obj\Debug\net8.0\DotNetCRUD.sourcelink.json
