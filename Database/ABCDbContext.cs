@@ -10,7 +10,6 @@ namespace DotNetCRUD.Database
 
         }
 
-        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
-

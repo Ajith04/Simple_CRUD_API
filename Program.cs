@@ -18,9 +18,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ABCDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("SampleCS")));
 
-builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
-builder.Services.AddScoped<ISubjectService, SubjectService>();
-
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 var app = builder.Build();
 
