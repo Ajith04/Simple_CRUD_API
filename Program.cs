@@ -17,9 +17,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ABCDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("SampleCS")));
-builder.Services.AddScoped<ICustomerService, CustomerService>();
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IStudent_Services, Student_Services>();
+builder.Services.AddScoped<IStudent_Repo, StudentRepo>();
 
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 var app = builder.Build();
 
