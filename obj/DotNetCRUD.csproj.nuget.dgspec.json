@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\DotNetCRUD.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\DotNetCRUD.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\Student\\Simple_CRUD_API\\obj\\",
+=======
+    "C:\\Users\\User\\Desktop\\DotNETCRUD\\DotNetCRUD.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\DotNETCRUD\\DotNetCRUD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DotNETCRUD\\DotNetCRUD.csproj",
+        "projectName": "DotNetCRUD",
+        "projectPath": "C:\\Users\\User\\Desktop\\DotNETCRUD\\DotNetCRUD.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DotNETCRUD\\obj\\",
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

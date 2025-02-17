@@ -5,32 +5,52 @@
     "version": "1.0"
   },
   "paths": {
+<<<<<<< HEAD
     "/api/Student": {
       "post": {
         "tags": [
           "Student"
+=======
+    "/api/Order/add-new-order": {
+      "post": {
+        "tags": [
+          "Order"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/Student_RequestDTO"
+=======
+                "$ref": "#/components/schemas/OrderRequestDTO"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
               }
             },
             "text/json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/Student_RequestDTO"
+=======
+                "$ref": "#/components/schemas/OrderRequestDTO"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
               }
             },
             "application/*+json": {
               "schema": {
+<<<<<<< HEAD
                 "$ref": "#/components/schemas/Student_RequestDTO"
+=======
+                "$ref": "#/components/schemas/OrderRequestDTO"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
               }
             }
           }
         },
         "responses": {
           "200": {
+<<<<<<< HEAD
             "description": "OK",
             "content": {
               "text/plain": {
@@ -49,10 +69,14 @@
                 }
               }
             }
+=======
+            "description": "OK"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
           }
         }
       }
     },
+<<<<<<< HEAD
     "/api/Student/{id}": {
       "get": {
         "tags": [
@@ -152,6 +176,24 @@
       "delete": {
         "tags": [
           "Student"
+=======
+    "/api/Order/get-all-orders": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Order/get-order-by-id/{id}": {
+      "get": {
+        "tags": [
+          "Order"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
         ],
         "parameters": [
           {
@@ -171,6 +213,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/api/Student/GetAll": {
       "get": {
         "tags": [
@@ -205,6 +248,69 @@
                 }
               }
             }
+=======
+    "/api/Order/edit-order/{id}": {
+      "put": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Order/delete-order-by-id/{id}": {
+      "delete": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
           }
         }
       }
@@ -212,6 +318,7 @@
   },
   "components": {
     "schemas": {
+<<<<<<< HEAD
       "Student_RequestDTO": {
         "required": [
           "studentAddress",
@@ -288,6 +395,22 @@
           "studentEmail": {
             "type": "string",
             "nullable": true
+=======
+      "OrderRequestDTO": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
           }
         },
         "additionalProperties": false

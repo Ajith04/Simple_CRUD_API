@@ -1,13 +1,20 @@
 [
   {
+<<<<<<< HEAD
     "ContainingType": "DotNetCRUD.Controllers.StudentController",
     "Method": "AddStudent",
     "RelativePath": "api/Student",
+=======
+    "ContainingType": "DotNetCRUD.Controllers.OrderController",
+    "Method": "addNewOrder",
+    "RelativePath": "api/Order/add-new-order",
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
         "Name": "student",
         "Type": "DotNetCRUD.DTO.RequestDTO.Student_RequestDTO",
         "IsRequired": true
@@ -86,6 +93,19 @@
     "ContainingType": "DotNetCRUD.Controllers.StudentController",
     "Method": "DeleteStudent",
     "RelativePath": "api/Student/{id}",
+=======
+        "Name": "orderRequestDTO",
+        "Type": "DotNetCRUD.DTO.RequestDTO.OrderRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCRUD.Controllers.OrderController",
+    "Method": "deleteOrderById",
+    "RelativePath": "api/Order/delete-order-by-id/{id}",
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -99,13 +119,41 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "DotNetCRUD.Controllers.StudentController",
     "Method": "GetAllStudents",
     "RelativePath": "api/Student/GetAll",
+=======
+    "ContainingType": "DotNetCRUD.Controllers.OrderController",
+    "Method": "editOrder",
+    "RelativePath": "api/Order/edit-order/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderRequestDTO",
+        "Type": "DotNetCRUD.DTO.RequestDTO.OrderRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCRUD.Controllers.OrderController",
+    "Method": "getAllOrders",
+    "RelativePath": "api/Order/get-all-orders",
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+<<<<<<< HEAD
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[DotNetCRUD.DTO.ResponseDTO.Student_ResponseDTO, DotNetCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -117,5 +165,24 @@
         "StatusCode": 200
       }
     ]
+=======
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCRUD.Controllers.OrderController",
+    "Method": "getOrderById",
+    "RelativePath": "api/Order/get-order-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
   }
 ]

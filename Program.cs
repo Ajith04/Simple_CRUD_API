@@ -20,6 +20,9 @@ builder.Services.AddDbContext<ABCDbContext>(opt => opt.UseSqlServer(builder.Conf
 builder.Services.AddScoped<IStudent_Services, Student_Services>();
 builder.Services.AddScoped<IStudent_Repo, StudentRepo>();
 
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

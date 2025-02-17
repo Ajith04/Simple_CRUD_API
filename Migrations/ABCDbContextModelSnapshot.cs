@@ -22,6 +22,7 @@ namespace DotNetCRUD.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+<<<<<<< HEAD
             modelBuilder.Entity("DotNetCRUD.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
@@ -60,6 +61,30 @@ namespace DotNetCRUD.Migrations
                     b.HasKey("StudentId");
 
                     b.ToTable("Students");
+=======
+            modelBuilder.Entity("DotNetCRUD.Models.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("OrderId");
+
+                    b.ToTable("Orders");
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
                 });
 #pragma warning restore 612, 618
         }
