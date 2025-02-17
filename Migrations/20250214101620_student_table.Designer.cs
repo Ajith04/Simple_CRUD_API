@@ -4,6 +4,7 @@ using DotNetCRUD.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DotNetCRUD.Migrations
 {
     [DbContext(typeof(ABCDbContext))]
-    partial class ABCDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250214101620_student_table")]
+    partial class student_table
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,7 +25,6 @@ namespace DotNetCRUD.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
             modelBuilder.Entity("DotNetCRUD.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
@@ -61,30 +63,6 @@ namespace DotNetCRUD.Migrations
                     b.HasKey("StudentId");
 
                     b.ToTable("Students");
-=======
-            modelBuilder.Entity("DotNetCRUD.Models.Order", b =>
-                {
-                    b.Property<int>("OrderId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("OrderId");
-
-                    b.ToTable("Orders");
->>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
                 });
 #pragma warning restore 612, 618
         }
