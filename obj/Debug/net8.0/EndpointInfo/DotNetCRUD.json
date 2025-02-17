@@ -5,22 +5,82 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Customer/GetCustomers": {
-      "get": {
+<<<<<<< HEAD
+    "/api/Student": {
+      "post": {
         "tags": [
-          "Customer"
+          "Student"
+=======
+    "/api/Order/add-new-order": {
+      "post": {
+        "tags": [
+          "Order"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/Student_RequestDTO"
+=======
+                "$ref": "#/components/schemas/OrderRequestDTO"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
+              }
+            },
+            "text/json": {
+              "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/Student_RequestDTO"
+=======
+                "$ref": "#/components/schemas/OrderRequestDTO"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
+              }
+            },
+            "application/*+json": {
+              "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/Student_RequestDTO"
+=======
+                "$ref": "#/components/schemas/OrderRequestDTO"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
+<<<<<<< HEAD
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              }
+            }
+=======
             "description": "OK"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
           }
         }
       }
     },
-    "/api/Customer/{id}": {
+<<<<<<< HEAD
+    "/api/Student/{id}": {
       "get": {
         "tags": [
-          "Customer"
+          "Student"
         ],
         "parameters": [
           {
@@ -35,13 +95,105 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Student"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student_RequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student_RequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student_RequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student_ResponseDTO"
+                }
+              }
+            }
           }
         }
       },
       "delete": {
         "tags": [
-          "Customer"
+          "Student"
+=======
+    "/api/Order/get-all-orders": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Order/get-order-by-id/{id}": {
+      "get": {
+        "tags": [
+          "Order"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
         ],
         "parameters": [
           {
@@ -61,41 +213,46 @@
         }
       }
     },
-    "/api/Customer/AddCustomer": {
-      "post": {
+<<<<<<< HEAD
+    "/api/Student/GetAll": {
+      "get": {
         "tags": [
-          "Customer"
+          "Student"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerReqDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerReqDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerReqDTO"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customer/EditCustomer/{id}": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student_ResponseDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student_ResponseDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student_ResponseDTO"
+                  }
+                }
+              }
+            }
+=======
+    "/api/Order/edit-order/{id}": {
       "put": {
         "tags": [
-          "Customer"
+          "Order"
         ],
         "parameters": [
           {
@@ -112,17 +269,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerReqDTO"
+                "$ref": "#/components/schemas/OrderRequestDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerReqDTO"
+                "$ref": "#/components/schemas/OrderRequestDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerReqDTO"
+                "$ref": "#/components/schemas/OrderRequestDTO"
               }
             }
           }
@@ -130,6 +287,30 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Order/delete-order-by-id/{id}": {
+      "delete": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
           }
         }
       }
@@ -137,28 +318,99 @@
   },
   "components": {
     "schemas": {
-      "CustomerReqDTO": {
+<<<<<<< HEAD
+      "Student_RequestDTO": {
+        "required": [
+          "studentAddress",
+          "studentEmail",
+          "studentFirstName",
+          "studentGender",
+          "studentLastName",
+          "studentPhone"
+        ],
         "type": "object",
         "properties": {
-          "customerName": {
+          "studentFirstName": {
             "type": "string",
             "nullable": true
           },
-          "age": {
+          "studentLastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentDOB": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "studentPhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentEmail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Student_ResponseDTO": {
+        "type": "object",
+        "properties": {
+          "studentId": {
             "type": "integer",
             "format": "int32"
           },
-          "address": {
+          "studentFirstName": {
             "type": "string",
             "nullable": true
           },
-          "phoneNumber": {
+          "studentLastName": {
             "type": "string",
             "nullable": true
           },
-          "emailAddress": {
+          "studentDOB": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "studentPhone": {
             "type": "string",
             "nullable": true
+          },
+          "studentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentEmail": {
+            "type": "string",
+            "nullable": true
+=======
+      "OrderRequestDTO": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+>>>>>>> 71a23c3c1ac67c2176f5b8d937d981b1327090f1
           }
         },
         "additionalProperties": false
