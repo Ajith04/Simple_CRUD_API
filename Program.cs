@@ -1,8 +1,4 @@
 using DotNetCRUD.Database;
-using DotNetCRUD.IRepositories;
-using DotNetCRUD.IServices;
-using DotNetCRUD.Repositories;
-using DotNetCRUD.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,8 +14,6 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ABCDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("SampleCS")));
 
-builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
